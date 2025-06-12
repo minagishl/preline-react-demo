@@ -76,11 +76,11 @@ The demo shows how to properly wrap your application with `PrelineProvider`:
 import { PrelineProvider } from 'preline-react';
 
 createRoot(document.getElementById('root')!).render(
-	<StrictMode>
-		<PrelineProvider>
-			<App />
-		</PrelineProvider>
-	</StrictMode>
+  <StrictMode>
+    <PrelineProvider>
+      <App />
+    </PrelineProvider>
+  </StrictMode>
 );
 ```
 
@@ -92,17 +92,17 @@ Example of using Preline React components:
 import { Button } from 'preline-react';
 
 function App() {
-	const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-	return (
-		<div className='p-6 text-center'>
-			<h1 className='mb-4 text-2xl font-bold'>Count: {count}</h1>
+  return (
+    <div className="p-6 text-center">
+      <h1 className="mb-4 text-2xl font-bold">Count: {count}</h1>
 
-			<Button variant='solid' color='blue' onClick={() => setCount(count + 1)}>
-				Click
-			</Button>
-		</div>
-	);
+      <Button variant="solid" color="blue" onClick={() => setCount(count + 1)}>
+        Click
+      </Button>
+    </div>
+  );
 }
 ```
 
@@ -115,7 +115,7 @@ The demo uses Tailwind CSS v4 with the Vite plugin for optimal integration:
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-	plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss()],
 });
 ```
 

@@ -7,9 +7,9 @@ import App from './App.tsx';
 import { PrelineProvider } from 'preline-react';
 
 createRoot(document.getElementById('root')!).render(
-	<StrictMode>
-		<PrelineProvider>
-			<App />
-		</PrelineProvider>
-	</StrictMode>
+  <StrictMode>
+    <PrelineProvider>
+      <App />
+    </PrelineProvider>
+  </StrictMode>
 );
