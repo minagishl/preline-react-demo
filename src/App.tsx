@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from 'preline-react';
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -14,5 +14,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
