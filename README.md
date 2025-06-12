@@ -119,7 +119,7 @@ export default defineConfig({
 });
 ```
 
-## 📚 Learn More
+## Learn More
 
 - **Preline React Documentation**: [Storybook](https://minagishl.github.io/preline-react/)
 - **Preline React Repository**: [GitHub](https://github.com/minagishl/preline-react)
